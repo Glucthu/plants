@@ -17,6 +17,7 @@ body {
 	position: fixed;
 	bottom: 3vh;
 	right: 3vw;
+	z-index: 1000;
 }
 
 .navbar-brand img {
@@ -53,18 +54,70 @@ img {
 	margin: 0;
 }
 
-.col-sm-1 {
-	display: flex;
-	justify-content: center;
+#plants {
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 
 #page-footer {
 	background-color: #222;
-	height: 30vh;
+}
+
+#page-footer h5 {
+	color: white;
+}
+
+#page-footer ul {
+	padding-left: 0;
+}
+
+#page-footer li {
+	color: #eee;
+	display: flex;
+}
+
+.card {
+	border-width: 2px !important;
+}
+
+.col-4, .col-6 {
+	display: flex;
+	justify-content: center;
+}
+
+#page-footer p {
+	color: #eee;
+	font-size: 0.9em;
+}
+
+#page-footer svg {
+	width: 25px;
+}
+
+#page-footer a {
+	text-decoration: none;
+}
+
+#contact {
+	margin: 30px 0;
+}
+
+#copy {
+	margin: 10px;
 }
 
 @media (max-width: 767.98px) { 
 	#carousel-prev, #carousel-next {
 		display: none;
+	}
+
+	.row {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.col-4, .col-6 {
+		display: flex;
+		max-width: 100% !important;
 	}
 }
