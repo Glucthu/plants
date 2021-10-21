@@ -1,0 +1,37 @@
+main {
+	margin-top: 50vw;
+}
+
+#carousel-slider{
+	margin: 100px 0 0 0;
+	max-width: 100%;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+}
+
+.carousel-item {
+	filter: brightness(75%);
+}
+
+.carousel-item img {
+	height: 50vw;
+}
+
+#carousel-prev, #carousel-next {
+	position: unset;
+	width: 60px;
+	height: 60px;
+	background-color: black;
+	border-radius: 50%;
+	margin: 0;
+}
+
+#plants {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.card {
+	border-width: 2px !important;
+}

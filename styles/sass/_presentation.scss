@@ -1,0 +1,78 @@
+#nav-items {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#menu {
+	display: none;
+}
+
+#menu-icon {
+	display: none;
+}
+
+#menu-icon path {
+	cursor: pointer;
+	fill: $primary;
+}
+
+.navbar {
+	z-index: 1001;
+	
+	a { color: $secondary; }
+    a:hover { color: $primary; }
+}
+
+#hero-background {
+	width: 100%;
+	height: $hero-height;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("../../src/plants-hero.jpg");
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	filter: brightness(50%);
+}
+
+#presentation-content {
+	width: 100%;
+    max-width: 1500px;
+	height: $hero-height;
+	position: absolute;
+	top: 0px;
+	left: 50%;
+    transform: translateX(-50%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 1000;
+
+    svg {
+        width: 20px;
+        position: relative;
+        margin: 0 10px;
+		z-index: 1000;
+    }
+
+    path { fill: $secondary; }
+	.col-4 { max-width: 100%; }
+}
+
+#presentation-links {
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 50px;
+}
+
+#presentation-title {
+	position: relative;
+    flex-direction: column;
+	text-align: center;
+	z-index: 1000;
+	
+	#title { color: $primary; }
+	#subtitle { color: $secondary; }
+}

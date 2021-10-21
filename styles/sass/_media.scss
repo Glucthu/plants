@@ -1,0 +1,39 @@
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 768px) { 
+	#carousel-prev, #carousel-next {
+		display: none;
+	}
+
+	.row {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.col-4, .col-6 {
+		display: flex;
+		max-width: 100% !important;
+	}
+
+	#navbar {
+		display: none;
+	}
+
+	#menu-icon {
+		display: block;
+	}
+}
+
+@media (max-width: 992px) {
+	
+}
+
+@media (max-width: 1200px) {
+	
+}
+
+@media (max-width: 1400px) {
+	
+}
